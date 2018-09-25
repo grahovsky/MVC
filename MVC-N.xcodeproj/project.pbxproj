@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B59D5403215AABCD005C3C09 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59D5402215AABCD005C3C09 /* CommentCell.swift */; };
+		B59D5405215AAD6E005C3C09 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59D5404215AAD6E005C3C09 /* Comment.swift */; };
 		B5B9270A21551F8A0062D06C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B9270921551F8A0062D06C /* AppDelegate.swift */; };
 		B5B9270C21551F8A0062D06C /* CommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B9270B21551F8A0062D06C /* CommentsViewController.swift */; };
 		B5B9270F21551F8A0062D06C /* Comments.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5B9270D21551F8A0062D06C /* Comments.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B59D5402215AABCD005C3C09 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+		B59D5404215AAD6E005C3C09 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
 		B5B9270621551F8A0062D06C /* MVC-N.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVC-N.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5B9270921551F8A0062D06C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5B9270B21551F8A0062D06C /* CommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewController.swift; sourceTree = "<group>"; };
@@ -107,6 +111,7 @@
 		B5B92720215521040062D06C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B59D5404215AAD6E005C3C09 /* Comment.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -115,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				B5B9270D21551F8A0062D06C /* Comments.storyboard */,
+				B59D5402215AABCD005C3C09 /* CommentCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -209,6 +215,8 @@
 			files = (
 				B5B9270C21551F8A0062D06C /* CommentsViewController.swift in Sources */,
 				B5B9270A21551F8A0062D06C /* AppDelegate.swift in Sources */,
+				B59D5403215AABCD005C3C09 /* CommentCell.swift in Sources */,
+				B59D5405215AAD6E005C3C09 /* Comment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
