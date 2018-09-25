@@ -12,6 +12,7 @@
 		B59D5408215AB40C005C3C09 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59D5407215AB40C005C3C09 /* NetworkService.swift */; };
 		B59D540B215AC62A005C3C09 /* CommentNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59D540A215AC62A005C3C09 /* CommentNetworkService.swift */; };
 		B59D540D215AC721005C3C09 /* GetCommentResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59D540C215AC721005C3C09 /* GetCommentResponse.swift */; };
+		B59D5410215AD1FD005C3C09 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59D540F215AD1FD005C3C09 /* NetworkError.swift */; };
 		B5B9270A21551F8A0062D06C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B9270921551F8A0062D06C /* AppDelegate.swift */; };
 		B5B9270C21551F8A0062D06C /* CommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B9270B21551F8A0062D06C /* CommentsViewController.swift */; };
 		B5B9270F21551F8A0062D06C /* Comments.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5B9270D21551F8A0062D06C /* Comments.storyboard */; };
@@ -25,6 +26,7 @@
 		B59D5407215AB40C005C3C09 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		B59D540A215AC62A005C3C09 /* CommentNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentNetworkService.swift; sourceTree = "<group>"; };
 		B59D540C215AC721005C3C09 /* GetCommentResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCommentResponse.swift; sourceTree = "<group>"; };
+		B59D540F215AD1FD005C3C09 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		B5B9270621551F8A0062D06C /* MVC-N.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVC-N.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5B9270921551F8A0062D06C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5B9270B21551F8A0062D06C /* CommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +63,14 @@
 			path = CommetNetworkService;
 			sourceTree = "<group>";
 		};
+		B59D540E215AD171005C3C09 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				B59D540C215AC721005C3C09 /* GetCommentResponse.swift */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
 		B5B926FD21551F8A0062D06C = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +100,7 @@
 		B5B9271B215520400062D06C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B59D540F215AD1FD005C3C09 /* NetworkError.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -136,7 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				B59D5404215AAD6E005C3C09 /* Comment.swift */,
-				B59D540C215AC721005C3C09 /* GetCommentResponse.swift */,
+				B59D540E215AD171005C3C09 /* Responses */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -239,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B59D5408215AB40C005C3C09 /* NetworkService.swift in Sources */,
+				B59D5410215AD1FD005C3C09 /* NetworkError.swift in Sources */,
 				B5B9270C21551F8A0062D06C /* CommentsViewController.swift in Sources */,
 				B5B9270A21551F8A0062D06C /* AppDelegate.swift in Sources */,
 				B59D540D215AC721005C3C09 /* GetCommentResponse.swift in Sources */,
