@@ -17,6 +17,7 @@ class CommentsViewController: UIViewController {
         super.viewDidLoad()
         CommentNetworkService.getComments { (response) in
             self.comments = response.comments
+            //перегружаем таблицу, т.к. данные могут быть получены после
             self.tableView.reloadData()
         }
     }

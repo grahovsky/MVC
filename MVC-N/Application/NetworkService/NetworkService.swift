@@ -21,6 +21,7 @@ class NetworkService {
             
             do {
                 let json = try JSONSerialization.jsonObject(with: data, options: [])
+                //для обновлени интерфейса в главном потоке
                 DispatchQueue.main.async(execute: {
                     completion(json)
                 })

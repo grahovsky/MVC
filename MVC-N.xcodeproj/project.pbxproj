@@ -146,8 +146,8 @@
 		B5B92720215521040062D06C /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				B59D5404215AAD6E005C3C09 /* Comment.swift */,
 				B59D540E215AD171005C3C09 /* Responses */,
+				B59D5404215AAD6E005C3C09 /* Comment.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
